@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Peter Hense">
+        <link rel="canonical" href="https://phense.github.com/win10guide/drives/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Drives, Partitions and Programs - Win10Guide</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../css/extra.css" rel="stylesheet">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="..">Win10Guide</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Installation <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Drives, Partitions and Programs</a>
+</li>
+                                    
+<li>
+    <a href="../backup-1/" class="dropdown-item">Backup</a>
+</li>
+                                    
+<li>
+    <a href="../install/" class="dropdown-item">Install</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Setup <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../postinstall/" class="dropdown-item">Post-Install</a>
+</li>
+                                    
+<li>
+    <a href="../security/" class="dropdown-item">Security</a>
+</li>
+                                    
+<li>
+    <a href="../basics/" class="dropdown-item">Basic Tools</a>
+</li>
+                                    
+<li>
+    <a href="../browser/" class="dropdown-item">Browser</a>
+</li>
+                                    
+<li>
+    <a href="../editor/" class="dropdown-item">The Editor</a>
+</li>
+                                    
+<li>
+    <a href="../audio/" class="dropdown-item">Audio</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Supplementary <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../partitions/" class="dropdown-item">Partitions</a>
+</li>
+                                    
+<li>
+    <a href="../references/" class="dropdown-item">References</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../about/" class="nav-link">About</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../backup-1/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#about-hard-drives-partitions-and-programs" class="nav-link">About Hard Drives, Partitions and Programs</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#hard-drive-disk" class="nav-link">Hard Drive / Disk</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#partitions-and-filesystems" class="nav-link">Partitions and Filesystems</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#programs-files-and-appdata" class="nav-link">Programs, Files and %APPDATA%</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="about-hard-drives-partitions-and-programs">About Hard Drives, Partitions and Programs</h1>
+<p>All the things you need to know to avoid confusion</p>
+<hr />
+<h2 id="hard-drive-disk">Hard Drive / Disk</h2>
+<p><img alt="Hard Drive" src="../img/en/drives/harddrive.jpg" /></p>
+<p>A Hard Drive is a physical device that&rsquo;s used to store data. It&rsquo;s not a standard term but a commonly-used one. While the strictest definition would be the physical device that stores data, it is often used informally to refer to any storage device, from a disk to a volume. Technically, its meaning is restricted to describing a hardware device.</p>
+<p>It is the device that you buy in your computer store. Current typical examples for hard drives are the big, clunky Hard Disk Drives (HDD), Solid State Disks (SSD) and M.2 SSD&rsquo;s, also known as PCI Express NVMe SSD&rsquo;s.</p>
+<p>But it is not what you are directly working on when you work on your PC. For any operating system to perform read and write data from a hard drive, the hard drive needs a filesystem.</p>
+<h2 id="partitions-and-filesystems">Partitions and Filesystems</h2>
+<p>The typical filesystem for Windows 7/8/10 is called NTFS. The (very) outdated filesystem from yesteryear is called FAT32, mostly used in Windows XP and below. A modernized version of FAT32 is called exFAT, mainly used as an optional filesystem for USB Flash Drives.</p>
+<p>Here is the crucial part:</p>
+<p><strong>A hard drive can contain a partition that spans over the entire disk or contains multiple, separate partitions. It is commonly referred to as <em>partitioning</em>. To be more precise: A partition is a chunk of hard drive that contains a filesystem.</strong></p>
+<p>This is, in itself, a straightforward concept to understand. However, it gets confusing in Windows because Microsoft decided to make everything user-friendly and hide this from the standard view.</p>
+<p>When you open <code>Your PC</code> Window (from the Start Menu), Windows will show you your <strong>partitions</strong>, as well as all connected Flash Drives, mounted Virtual Disks as well as Floppy Disk Drives and CD/DVD/BD Drives.</p>
+<p>Here is an example:</p>
+<p><img alt="My PC" src="../img/en/drives/devices_and_drives.png" /></p>
+<p>It shows the physical BD-RE Drive, but only partitions, and then calls them &ldquo;Disk&rdquo;, which can lead to confusion and problems later, when we need to re-format the <em>partition</em> that contained the old  Operating System.</p>
+<p>In the picture above, you can see multiple disks, and it looks like they all might be partitions that span entire Hard Disks, but it would be equally possible that &ldquo;Backup&rdquo; and &ldquo;Old&rdquo; are just two partitions on a 4TB HDD. It is impossible to tell.</p>
+<p>To see what&rsquo;s going on, we need to open the Windows Disk Manager. To do this, we start with opening the Start-Menu by pressing
+<code>⊞ Win</code> or the Run-Menu by pressing <code>⊞ Win + R</code> and type <code>diskmgmt.msc</code> and press Enter.</p>
+<p>Alternatively, you can open the Start-Menu and navigate to <code>Control Panel</code> &gt; <code>Administrative Tools</code> &gt; <code>Computer  Management</code>. Inside
+<code>Computer Management</code> you can select <code>Disk Management</code> and will be greeted with a window displaying all the physical Hard Drives in the computer, as well as the partitions and their file system on them. In my example, it looks like this:</p>
+<p><img alt="Disk Management" src="../img/en/drives/diskmgmt.png" /></p>
+<p>Here we can see that, yes, the partitions span the entire physical Hard Drives. Let&rsquo;s ignore the small partitions on the system drive, as this is
+something that Windows will automatically do during the installation.</p>
+<p>Keep your Hard Disk and partition layout in mind; you will need it later.</p>
+<h2 id="programs-files-and-appdata">Programs, Files and %APPDATA%</h2>
+<p>Let&rsquo;s talk about programs for a bit. If we ignore portable programs, then the standard programs (or games) come with an Installer, which typically installs many files in a directory of your choice, by default the <code>C:\Programs</code> or <code>C:\Programs (x86)</code> Folders on the Systems partition (C:). A program (or game) that comes with an installer usually includes multiple executable files, like the main program, an updater and an uninstaller.</p>
+<p>For some programs, the configuration can be unimportant or is quickly set up. Examples are Libre Office and Microsoft Office.</p>
+<p>However, for some programs and especially games, the configuration can either require a long time to set up or outright need keys and files that cannot easily be replaced. For example, customized User Interfaces in games, the Server list for Teamspeak- or IRC Clients, SSH private keys for Github Repositories, AES private keys for GnuPG and Mail.</p>
+<p>And how do you save Website Passwords? Is it within the Webbrowser directly, a Browser-Plugin using encrypted Cloud Storage, or on stacks of paper notes stuffed together in the upper desk drawer?</p>
+<p><strong>But where do all the programs save the configurations and essential files?</strong></p>
+<p>And the answer is <code>%APPDATA%</code>, a System variable that links to <code>C:\Users\&lt;Username&gt;\AppData\</code>. However, you can open the Windows File Explorer (open the Start Menu with <code>⊞ Win</code> and type File Explorer) and type <code>%APPDATA%</code> and press <code>Enter</code> to enter said folder. However, when you navigate to <code>C:\Users\&lt;Username&gt;\</code>, the AppData folder has become invisible.</p>
+<p>The AppData folder is hidden from the normal view to prevent normal users from accidentally deleting the folder and loose all their valuable program configurations. The File Explorer can access the option to display hidden files and folders. Inside the File Explorer, select <code>View</code> &gt; <code>Options</code> &gt; <code>Change folder and search options</code> and a option window will appear. Select the <code>View</code> Tab. Somewhere in the options list (depending on your current Windows version) will be the option <code>Show hidden files, folders and drives</code>.</p>
+<p><img alt="Hidden Files" src="../img/en/drives/hidden_files.png" /></p>
+<p>The AppData Folder will show up now.</p>
+<p><strong>This is important since installing a new Windows will delete all the data on the partition, and programs (and games) cannot just be copied somewhere else and then copied back. They all need to be re-installed, too. However, your AppData Folder can be copied and saved, together with all other folders and files inside the <code>C:\Users\&lt;Username&gt;\</code> directory. It can only be selected and copied if it isn&rsquo;t hidden from view.</strong></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"next": 39, "previous": 37, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
