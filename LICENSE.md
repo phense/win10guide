@@ -1,0 +1,1 @@
+Permission is given for other parties to share, redistribute and copy this work under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (see https://creativecommons.org/licenses/by-nc-sa/4.0/ )
