@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="Peter Hense">
-        <link rel="canonical" href="https://phense.github.com/win10guide/partitions/">
+        <link rel="canonical" href="https://phense.github.com/win10guide/findspace/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Partitions - Win10Guide</title>
+        <title>Find Space - Win10Guide</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -88,7 +88,7 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="./" class="dropdown-item active">Partitions</a>
+    <a href="./" class="dropdown-item active">Find Space</a>
 </li>
                                     
 <li>
@@ -134,12 +134,77 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#find-space" class="nav-link">Find Space</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#having-a-first-look" class="nav-link">Having a first look</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#three-easy-ways-to-make-space" class="nav-link">Three easy ways to make space</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#compressing-pictures" class="nav-link">Compressing Pictures</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#compressing-videoclips" class="nav-link">Compressing Videoclips</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="find-space">Find Space</h1>
+<p>by reducing or deleting unnecessary files</p>
+<hr />
+<h2 id="having-a-first-look">Having a first look</h2>
+<p>If we want to find the big eaters of space hidden or forgotten inside a specific folder or partition, we need a way to visualize the size
+of all subfolders in an easy to use manner. This is especially so for the  <code>C:\Users\'Username'\AppData</code> folder.</p>
+<p>A nice, free tool to visualize which subfolders of <code>C:\Users\'Username'\</code> take up a lot of space, and might not be needed for a Backup,
+is called <a href="http://www.uderzo.it/main_products/space_sniffer/index.html">SpaceSniffer</a>. Download it, start the application and point it
+at your <code>C:\Users\'Username'\</code> folder, like so:</p>
+<p><img alt="space_sniffer_1" src="../img/en/findspace/spacesniffer_1.png" /></p>
+<p>Let it run for a while until there are no more big changes to the picture. Let&rsquo;s have a look at the view of my <code>C:\Users\Zyrkon\</code> Folder:</p>
+<p><img alt="space_sniffer_2" src="../img/en/findspace/spacesniffer_2.png" /></p>
+<p>Each square represents a folder (or subfolder) and the size of said folder. The size of each square also represents the size in relation to
+all other folders. The bigger the square, the more space it needs. In my example, the folder <code>C:\Users\'Username'\AppData\Local\ModOrganizer</code>
+contains 12.1 GB worth of Skyrim Mods. A game I long since uninstalled and forgotten. This is a folder that I know I can delete because I
+know what it contains, and I know I do not need it any longer.</p>
+<p>The next biggest square in SpaceSniffer is the folder <code>C:\Users\'Username'\AppData\Local\Spotify</code>. In this case, I am not so sure of the content, but
+I am sure that Spotify itself only needs 100 MB or 200 MB in itself. As a music streaming service, I suspect that most of the 6.8 GB of data contains temporary files from music streaming. Clicking on the Spotify-square inside SpaceSniffer will focus on the Spotify folder as the base. And certainly enough, the <code>Data</code> subfolder contains almost all the data. Using a Google search for making sure (ex.: &lsquo;Can I delete the Spotify data folder&rsquo;), I find that yes, I can delete the content of the <code>Data</code> folder (but not the folder itself).</p>
+<p>The general rule for cleaning up your filesystem in this way is to delete folders or files when you are confident that you can do so. If you do not know what the files do, you should not delete them.</p>
+<h2 id="three-easy-ways-to-make-space">Three easy ways to make space</h2>
+<ol>
+<li>
+<p>Open the Recycle Bin on your Desktop, check the content to make sure all files can be irrevocably deleted, and click the <code>Empty Recycle Bin</code>- Button.</p>
+</li>
+<li>
+<p>From the <code>This PC</code>-Window we can right-click on <code>Local Drive (C:)</code> and open the `Properties-Window, like so:</p>
+</li>
+</ol>
+<p><img alt="Drive_Properties" src="../img/en/findspace/drive_properties.png" /></p>
+<p>Here we can click on <code>Disk Clean-up</code>. Windows will collect all data that we can safely delete:</p>
+<p><img alt="Disk_Cleanup" src="../img/en/findspace/disk_cleanup.png" /></p>
+<ol start="3">
+<li>In your preferred Web-Browser, open the Options or Settings. Depending on your browser, there will be a button to clear your Browser-Data. In Google Chrome, we can find this under Settings (3 dots) &gt; More Tools &gt; Clear browsing data. Select the time range &lsquo;All time&rsquo; and deselect &lsquo;Cookies&rsquo;.</li>
+</ol>
+<p>In Firefox we can find this under Options &gt; Privacy &amp; Security &gt; Clear Data&hellip; as shown below:</p>
+<p><img alt="Firefox_1" src="../img/en/findspace/firefox_1.png" /></p>
+<p>Deselect Cookies and delete the rest:</p>
+<p><img alt="Firefox_2" src="/img/en/findspace/firefox_2.png" /></p>
+<h2 id="compressing-pictures">Compressing Pictures</h2>
+<p>With Smartphones, it has become common to take lots and lots of pictures. Eventually, these pictures get transferred to the Computer to make room on the Smartphone. In the best case, the images get sorted by year and event with a proper file structure, or in the worst case get dumped into one big folder. The Pictures can take up a massive amount of disk space. Initially, it is good to have the pictures in a very high resolution because it will produce better results for editing or printing. However, when archiving images just for looking at them later, we can radically reduce the picture size, and therefore the file size.</p>
+<p>An easy way to do so is by using the free tool <a href="https://sourceforge.net/projects/icompress/">Mass Image Compressor</a>. After downloading and installing the tool, we can point it at any folder structure and select the quality and maximum image size for each picture. My recommendation is to use a picture quality of 80% and a fixed image width of 1920 (pixel):</p>
+<p><img alt="Image_Comp" src="/img/en/findspace/image_compressor.png" />.</p>
+<p>When compressing multiple folders (and subfolders) of pictures all at once, the program will <strong>replace</strong> the new image files with new ones. The other option is to go folder by folder and let the program create a new subfolder with all the newly generated images inside.</p>
+<h2 id="compressing-videoclips">Compressing Videoclips</h2>
+<p>What can be said about images can be said about videos, too. There are some free tools available online, together with instructions on youtube on how to use them. Two such tools are the <a href="https://www.freemake.com/">Freemake Video Converter</a> and the <a href="https://handbrake.fr/">HandBrake Video Transcoder</a>. Keep in mind that converting large video files will take a long time, depending on your CPU. Another way to effortlessly convert videos is to upload them to youtube as private, unpublished videos. Youtube will run all its video quality enhancement- and video compression algorithms over the footage, and we can finally download the new video file back from youtube. To do so will require a free account on youtube as well as a fast internet connection. </p></div>
             </div>
         </div>
 
