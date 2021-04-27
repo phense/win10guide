@@ -38,6 +38,6 @@ nav:
         - 'The Editor': 'editor.md'
         - 'Audio': 'audio.md'
     - Supplementary:
-        - 'Partitions': 'partitions.md'
+        - 'Find Space': 'findspace.md'
         - 'References': 'references.md'
     - About: 'about.md'

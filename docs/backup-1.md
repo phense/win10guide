@@ -33,7 +33,9 @@ This Folder can contain everything from 2-3 GB, up to an obscene amount of data.
 - another internal Hard Disk
 - an external Hard Disk / SSD
 - USB-Stick or
-- writeable media, such as writable Blu-ray Discs (needs BD-ROM drive).
+- a Cloud-Service, such as Google Drive, Microsoft Onedrive, Dropbox, etc.
+- writeable media, such as writable Blu-ray Discs (needs BD-ROM drive)
+
 
 Anything is fine as long as it can hold the amount of data shown on _your_ `C:\Users\'Username'\` folder.
 
@@ -43,13 +45,3 @@ If there is no such option readily available, then there are two things that can
 * find out what takes up a lot of space, and consider if you need this Data in the future. If not, delete it
 * Split a portion of your File-System into a new, temporary Partition and copy the Folder there. This Partition will not be
 touched during the installation of MS Windows 10.
-
-A nice, free tool to visualize which subfolders of `C:\Users\'Username'\` take up a lot of space, and might not needed for a Backup,
-is called [SpaceSniffer](http://www.uderzo.it/main_products/space_sniffer/index.html). Download it, start the Application and point it
-at your `C:\Users\'Username'\` Folder, like so:
-
-![space_sniffer_01](img/en_spacesniffer_01.png)
-
-Let it run for a while, until there are no more big changes to the picture. Let's have a look at the view of my `C:\Users\Zyrkon\` Folder:
-
-![space_sniffer_02](img/en_spacesniffer_02.png)
