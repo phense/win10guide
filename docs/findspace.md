@@ -46,11 +46,11 @@ Here we can click on `Disk Clean-up`. Windows will collect all data that we can 
 
 In Firefox we can find this under Options > Privacy & Security > Clear Data... as shown below:
 
-![Firefox_1](img/en/findspace/firefox_1.png)
+![Firefox_privacy](img/en/findspace/firefox_priv.png)
 
 Deselect Cookies and delete the rest:
 
-![Firefox_2](/img/en/findspace/firefox_2.png)
+![Firefox_clear](img/en/findspace/firefox_clear.png)
 
 
 ## Compressing Pictures
@@ -59,11 +59,11 @@ With Smartphones, it has become common to take lots and lots of pictures. Eventu
 
 An easy way to do so is by using the free tool [Mass Image Compressor](https://sourceforge.net/projects/icompress/). After downloading and installing the tool, we can point it at any folder structure and select the quality and maximum image size for each picture. My recommendation is to use a picture quality of 80% and a fixed image width of 1920 (pixel):
 
-![Image_Comp](/img/en/findspace/image_compressor.png).
+![Image_Compressor](img/en/findspace/image_compressor.png).
 
 When compressing multiple folders (and subfolders) of pictures all at once, the program will **replace** the new image files with new ones. The other option is to go folder by folder and let the program create a new subfolder with all the newly generated images inside.
 
 
 ## Compressing Videoclips
 
-What can be said about images can be said about videos, too. There are some free tools available online, together with instructions on youtube on how to use them. Two such tools are the [Freemake Video Converter](https://www.freemake.com/) and the [HandBrake Video Transcoder](https://handbrake.fr/). Keep in mind that converting large video files will take a long time, depending on your CPU. Another way to effortlessly convert videos is to upload them to youtube as private, unpublished videos. Youtube will run all its video quality enhancement- and video compression algorithms over the footage, and we can finally download the new video file back from youtube. To do so will require a free account on youtube as well as a fast internet connection. 
+What can be said about images can be said about videos, too. There are some free tools available online, together with instructions on youtube on how to use them. Two such tools are the [Freemake Video Converter](https://www.freemake.com/) and the [HandBrake Video Transcoder](https://handbrake.fr/). Keep in mind that converting large video files will take a long time, depending on your CPU. Another way to effortlessly convert videos is to upload them to youtube as private, unpublished videos. Youtube will run all its video quality enhancement- and video compression algorithms over the footage, and we can finally download the new video file back from youtube. To do so will require a free account on youtube as well as a fast internet connection.
