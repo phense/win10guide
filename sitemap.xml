@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-     <loc>https://phense.github.com/win10guide/</loc>
-     <lastmod>2021-04-27</lastmod>
+     <loc>https://phense.github.com/win10guide/en/</loc>
+     <lastmod>2021-04-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://phense.github.com/win10guide/drives/</loc>
-     <lastmod>2021-04-27</lastmod>
+     <loc>https://phense.github.com/win10guide/en/drives/</loc>
+     <lastmod>2021-04-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://phense.github.com/win10guide/backup-1/</loc>
-     <lastmod>2021-04-27</lastmod>
+     <loc>https://phense.github.com/win10guide/en/pre-install-backup/</loc>
+     <lastmod>2021-04-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://phense.github.com/win10guide/install/</loc>
-     <lastmod>2021-04-27</lastmod>
+     <loc>https://phense.github.com/win10guide/en/install/</loc>
+     <lastmod>2021-04-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://phense.github.com/win10guide/postinstall/</loc>
-     <lastmod>2021-04-27</lastmod>
+     <loc>https://phense.github.com/win10guide/en/postinstall/</loc>
+     <lastmod>2021-04-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://phense.github.com/win10guide/security/</loc>
-     <lastmod>2021-04-27</lastmod>
+     <loc>https://phense.github.com/win10guide/en/security/</loc>
+     <lastmod>2021-04-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://phense.github.com/win10guide/basics/</loc>
-     <lastmod>2021-04-27</lastmod>
+     <loc>https://phense.github.com/win10guide/en/basics/</loc>
+     <lastmod>2021-04-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://phense.github.com/win10guide/browser/</loc>
-     <lastmod>2021-04-27</lastmod>
+     <loc>https://phense.github.com/win10guide/en/browser/</loc>
+     <lastmod>2021-04-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://phense.github.com/win10guide/editor/</loc>
-     <lastmod>2021-04-27</lastmod>
+     <loc>https://phense.github.com/win10guide/en/editor/</loc>
+     <lastmod>2021-04-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://phense.github.com/win10guide/audio/</loc>
-     <lastmod>2021-04-27</lastmod>
+     <loc>https://phense.github.com/win10guide/en/audio/</loc>
+     <lastmod>2021-04-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://phense.github.com/win10guide/findspace/</loc>
-     <lastmod>2021-04-27</lastmod>
+     <loc>https://phense.github.com/win10guide/en/making-space/</loc>
+     <lastmod>2021-04-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://phense.github.com/win10guide/references/</loc>
-     <lastmod>2021-04-27</lastmod>
+     <loc>https://phense.github.com/win10guide/en/references/</loc>
+     <lastmod>2021-04-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://phense.github.com/win10guide/about/</loc>
-     <lastmod>2021-04-27</lastmod>
+     <loc>https://phense.github.com/win10guide/en/about/</loc>
+     <lastmod>2021-04-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
