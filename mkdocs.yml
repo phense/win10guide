@@ -37,19 +37,19 @@ theme:
       primary: blue
 
 nav:
-    - Home: 'en/index.md'
+    - Home: 'index.md'
     - Installation:
-        - 'Drives, Partitions and Programs': 'en/drives/index.md'
-        - 'Pre-Installation Backup': 'en/pre-install-backup/index.md'
-        - 'Install': 'en/install.md'
+        - 'Drives, Partitions and Programs': 'drives/index.md'
+        - 'Pre-Installation Backup': 'pre-install-backup/index.md'
+        - 'Install': 'install.md'
     - Setup:
-        - 'Post-Install': 'en/postinstall.md'
-        - 'Security': 'en/security.md'
-        - 'Basic Tools': 'en/basics.md'
-        - 'Browser': 'en/browser.md'
-        - 'The Editor': 'en/editor.md'
-        - 'Audio': 'en/audio.md'
+        - 'Post-Install': 'postinstall.md'
+        - 'Security': 'security.md'
+        - 'Basic Tools': 'basics.md'
+        - 'Browser': 'browser.md'
+        - 'The Editor': 'editor.md'
+        - 'Audio': 'audio.md'
     - Supplementary:
-        - 'Making Space': 'en/making-space/index.md'
-        - 'References': 'en/references.md'
-    - About: 'en/about.md'
+        - 'Making Space': 'making-space/index.md'
+        - 'References': 'references.md'
+    - About: 'about.md'

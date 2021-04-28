@@ -40,6 +40,6 @@ Anything is fine as long as it can hold the amount of data shown on _your_ `C:\U
 
 If there is no such option readily available, then there are two things that can still be done:
 
-* find and clean-up space, see [Finding Space](../making-space/)
+* find and clean-up space, see [Making Space](../making-space/)
 * Split a portion of your File-System into a new, temporary Partition and copy the Folder there. This Partition will not be
 touched during the installation of MS Windows 10.
