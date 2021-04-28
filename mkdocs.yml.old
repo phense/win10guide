@@ -1,0 +1,48 @@
+site_name: Win10Guide
+site_url: https://phense.github.com/win10guide/
+site_description: 'Installation and Setup Guide for Windows 10'
+site_author: 'Peter Hense'
+
+markdown_extensions:
+    - admonition
+    - extra
+    - sane_lists
+    - smarty
+
+plugins:
+    - search
+    - bootstrap-tables
+    - i18n:
+        default_language: en
+        languages:
+          en: English
+          de: Deutsch
+
+extra_css:
+    - css/extra.css
+
+theme:
+    name: mkdocs #readthedocs
+    nav_style: dark
+    shortcuts:       # https://keycode.info
+        next: 39     # ->
+        previous: 37 # <-
+        search: 83  # s
+
+nav:
+    - Home: 'index.en.md'
+    - Installation:
+        - 'Drives, Partitions and Programs': 'drives/index.en.md'
+        - 'Backup': 'backup-1.md'
+        - 'Install': 'install.md'
+    - Setup:
+        - 'Post-Install': 'postinstall.md'
+        - 'Security': 'security.md'
+        - 'Basic Tools': 'basics.md'
+        - 'Browser': 'browser.md'
+        - 'The Editor': 'editor.md'
+        - 'Audio': 'audio.md'
+    - Supplementary:
+        - 'Finding Space': 'findspace.md'
+        - 'References': 'references.md'
+    - About: 'about.md'

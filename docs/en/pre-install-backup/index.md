@@ -1,6 +1,4 @@
-# Backup of your Data (copy and paste method)
-
-consideration and awareness
+# Backup of your Data
 
 ***
 
@@ -15,18 +13,18 @@ This **excludes** all installed Applications and Games, the Windows Registry and
 
 Let's open the overview of your available Hard Disk Partitions under Windows by pressing the `⊞ Win` Key on your Keyboard or clicking the Symbol in your Taskbar to open the Windows Start Menu. There, select 'This PC', and a new window will show up. Here an example:
 
-![This PC](img/en/backup-1/this_pc.png)
+![This PC](this_pc.png){: .center-image }
 
 !!! warning "Note"
     If you have only one Hard Drive Partition available, namely 'Local Disk (C:)', you have to be acutely aware that installing Windows 10 on this partition will wipe the File System and therefore also delete all data.
 
 All files that need to be copied from 'Local Disk (C:)' should be contained in `C:\Users\'Username'\`. In the Explorer Window that we just opened, `double-click` on 'Local Disk (C:)', then navigate (by double-clicking) to the `C:\Users\` Folder. `Right-click` on your `C:\Users\'Username'\` Folder to open the Context-Menu, select (click) 'Properties' like so
 
-![Folder Properties](img/en/backup-1/folder_properties.png)
+![Folder Properties](folder_properties.png){: .center-image }
 
 And a new window will open, showing you the basic Properties of this Folder. Most important is the 'Size on disk' value. Here is an example from a live System
 
-![User Folder Properties](img/en/backup-1/user_folder.png)
+![User Folder Properties](user_folder.png){: .center-image }
 
 This Folder can contain everything from 2-3 GB, up to an obscene amount of data. This data needs to be saved. This means you need at least this amount of available space, somewhere **not** on 'Local Disk (C:)'. It can be one of:
 
@@ -40,8 +38,8 @@ This Folder can contain everything from 2-3 GB, up to an obscene amount of data.
 Anything is fine as long as it can hold the amount of data shown on _your_ `C:\Users\'Username'\` folder.
 
 
-If there is no such option readily available, then there are two things that can still be done about it:
+If there is no such option readily available, then there are two things that can still be done:
 
-* find out what takes up a lot of space, and consider if you need this Data in the future. If not, delete it
+* find and clean-up space, see [Finding Space](../making-space/)
 * Split a portion of your File-System into a new, temporary Partition and copy the Folder there. This Partition will not be
 touched during the installation of MS Windows 10.

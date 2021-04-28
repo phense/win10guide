@@ -1,7 +1,5 @@
 # Win10Guide
 
-Introduction
-
 * * *
 
 This guide will cover everything you need to know about (re-)installing Microsoft Windows 10 on your computer. From Backup considerations, Firewall- and Privacy settings to recommendations of useful (and free) tools for essential work.

@@ -1,12 +1,10 @@
 # About Hard Drives, Partitions and Programs
 
-All the things you need to know to avoid confusion
-
 ***
 
 ## Hard Drive / Disk
 
-![Hard Drive](img/en/drives/harddrive.jpg)
+![Hard Drive](harddrive.jpg){: .center-image }
 
 A Hard Drive is a physical device that's used to store data. It's not a standard term but a commonly-used one. While the strictest definition would be the physical device that stores data, it is often used informally to refer to any storage device, from a disk to a volume. Technically, its meaning is restricted to describing a hardware device.
 
@@ -29,7 +27,7 @@ When you open `Your PC` Window (from the Start Menu), Windows will show you your
 
 Here is an example:
 
-![My PC](img/en/drives/devices_and_drives.png)
+![My PC](devices_and_drives.png){: .center-image }
 
 It shows the physical BD-RE Drive, but only partitions, and then calls them "Disk", which can lead to confusion and problems later, when we need to re-format the *partition* that contained the old  Operating System.
 
@@ -41,7 +39,7 @@ To see what's going on, we need to open the Windows Disk Manager. To do this, we
 Alternatively, you can open the Start-Menu and navigate to `Control Panel` > `Administrative Tools` > `Computer  Management`. Inside
 `Computer Management` you can select `Disk Management` and will be greeted with a window displaying all the physical Hard Drives in the computer, as well as the partitions and their file system on them. In my example, it looks like this:
 
-![Disk Management](img/en/drives/diskmgmt.png)
+![Disk Management](diskmgmt.png){: .center-image }
 
 Here we can see that, yes, the partitions span the entire physical Hard Drives. Let's ignore the small partitions on the system drive, as this is
 something that Windows will automatically do during the installation.
@@ -65,7 +63,7 @@ And the answer is `%APPDATA%`, a System variable that links to `C:\Users\<Userna
 
 The AppData folder is hidden from the normal view to prevent normal users from accidentally deleting the folder and loose all their valuable program configurations. The File Explorer can access the option to display hidden files and folders. Inside the File Explorer, select `View` > `Options` > `Change folder and search options` and a option window will appear. Select the `View` Tab. Somewhere in the options list (depending on your current Windows version) will be the option `Show hidden files, folders and drives`.
 
-![Hidden Files](img/en/drives/hidden_files.png)
+![Hidden Files](hidden_files.png){: .center-image }
 
 The AppData Folder will show up now.
 

@@ -1,6 +1,4 @@
-# Find Space
-
-by reducing or deleting unnecessary files
+# Making Space
 
 ***
 
@@ -12,11 +10,11 @@ A nice, free tool to visualize which subfolders of `C:\Users\'Username'\` take u
 is called [SpaceSniffer](http://www.uderzo.it/main_products/space_sniffer/index.html). Download it, start the application and point it
 at your `C:\Users\'Username'\` folder, like so:
 
-![space_sniffer_1](img/en/findspace/spacesniffer_1.png)
+![space_sniffer_1](spacesniffer_1.png){: .center-image }
 
 Let it run for a while until there are no more big changes to the picture. Let's have a look at the view of my `C:\Users\Zyrkon\` Folder:
 
-![space_sniffer_2](img/en/findspace/spacesniffer_2.png)
+![space_sniffer_2](spacesniffer_2.png)
 
 Each square represents a folder (or subfolder) and the size of said folder. The size of each square also represents the size in relation to
 all other folders. The bigger the square, the more space it needs. In my example, the folder `C:\Users\'Username'\AppData\Local\ModOrganizer`
@@ -35,22 +33,22 @@ The general rule for cleaning up your filesystem in this way is to delete folder
 
 2. From the `This PC`-Window we can right-click on `Local Drive (C:)` and open the `Properties-Window, like so:
 
-![Drive_Properties](img/en/findspace/drive_properties.png)
+![Drive_Properties](drive_properties.png){: .center-image }
 
 Here we can click on `Disk Clean-up`. Windows will collect all data that we can safely delete:
 
-![Disk_Cleanup](img/en/findspace/disk_cleanup.png)
+![Disk_Cleanup](disk_cleanup.png){: .center-image }
 
 
 3. In your preferred Web-Browser, open the Options or Settings. Depending on your browser, there will be a button to clear your Browser-Data. In Google Chrome, we can find this under Settings (3 dots) > More Tools > Clear browsing data. Select the time range 'All time' and deselect 'Cookies'.
 
 In Firefox we can find this under Options > Privacy & Security > Clear Data... as shown below:
 
-![Firefox_privacy](img/en/findspace/firefox_priv.png)
+![Firefox_privacy](firefox_priv.png){: .center-image }
 
 Deselect Cookies and delete the rest:
 
-![Firefox_clear](img/en/findspace/firefox_clear.png)
+![Firefox_clear](firefox_clear.png){: .center-image }
 
 
 ## Compressing Pictures
@@ -59,7 +57,7 @@ With Smartphones, it has become common to take lots and lots of pictures. Eventu
 
 An easy way to do so is by using the free tool [Mass Image Compressor](https://sourceforge.net/projects/icompress/). After downloading and installing the tool, we can point it at any folder structure and select the quality and maximum image size for each picture. My recommendation is to use a picture quality of 80% and a fixed image width of 1920 (pixel):
 
-![Image_Compressor](img/en/findspace/image_compressor.png).
+![Image_Compressor](image_compressor.png){: .center-image }
 
 When compressing multiple folders (and subfolders) of pictures all at once, the program will **replace** the new image files with new ones. The other option is to go folder by folder and let the program create a new subfolder with all the newly generated images inside.
 

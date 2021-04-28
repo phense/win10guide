@@ -5,39 +5,51 @@ site_author: 'Peter Hense'
 
 markdown_extensions:
     - admonition
+    - attr_list
     - extra
     - sane_lists
     - smarty
 
 plugins:
     - search
-    - bootstrap-tables
+
+extra:
+  generator: false
 
 extra_css:
     - css/extra.css
 
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/tables.js
+
 theme:
-    name: mkdocs #readthedocs
-    nav_style: dark
-    shortcuts:       # https://keycode.info
-        next: 39     # ->
-        previous: 37 # <-
-        search: 83  # s
+    name: material
+    features:
+      - navigation.instant
+      - navigation.tracking
+      - navigation.tabs
+#      - navigation.tabs.sticky
+      - navigation.top
+      - toc.integrate
+    palette:
+      scheme: default
+      primary: blue
 
 nav:
-    - Home: 'index.md'
+    - Home: 'en/index.md'
     - Installation:
-        - 'Drives, Partitions and Programs': 'drives.md'
-        - 'Backup': 'backup-1.md'
-        - 'Install': 'install.md'
+        - 'Drives, Partitions and Programs': 'en/drives/index.md'
+        - 'Pre-Installation Backup': 'en/pre-install-backup/index.md'
+        - 'Install': 'en/install.md'
     - Setup:
-        - 'Post-Install': 'postinstall.md'
-        - 'Security': 'security.md'
-        - 'Basic Tools': 'basics.md'
-        - 'Browser': 'browser.md'
-        - 'The Editor': 'editor.md'
-        - 'Audio': 'audio.md'
+        - 'Post-Install': 'en/postinstall.md'
+        - 'Security': 'en/security.md'
+        - 'Basic Tools': 'en/basics.md'
+        - 'Browser': 'en/browser.md'
+        - 'The Editor': 'en/editor.md'
+        - 'Audio': 'en/audio.md'
     - Supplementary:
-        - 'Find Space': 'findspace.md'
-        - 'References': 'references.md'
-    - About: 'about.md'
+        - 'Making Space': 'en/making-space/index.md'
+        - 'References': 'en/references.md'
+    - About: 'en/about.md'

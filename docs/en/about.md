@@ -1,7 +1,5 @@
 # About
 
-About the Author, Licenses and legal stuff
-
 * * *
 
 ## Win10Guide
@@ -14,10 +12,10 @@ This guide should comply with the [Use of Microsoft copyrighted content guidelin
 
 ## Shortcuts
 
-You can use the `Right-Arrow` and `Left-Arrow` Keys on your Keyboard to navigate this Guide,
+You can use the `p` and `n` Keys on your Keyboard to navigate this Guide,
 and use `s` to open up the Search box.
 
 ## Included Projects
 
 -   MkDocs License: [View license](https://github.com/mkdocs/mkdocs/blob/master/LICENSE)
--   ReadTheDocs theme: [View license](https://github.com/readthedocs/sphinx_rtd_theme/blob/master/LICENSE)
+-   Material theme: [View license](https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE)

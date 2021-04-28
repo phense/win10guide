@@ -1,3 +1,11 @@
+/* Images  */
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
+
 /* Centered Headline */
 
 div.col-md-9 h1:first-of-type {
