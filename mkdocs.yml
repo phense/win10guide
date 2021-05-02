@@ -51,5 +51,6 @@ nav:
         - 'Audio': 'audio.md'
     - Supplementary:
         - 'Making Space': 'making-space/index.md'
+        - 'Splitting a Partition': 'splitting-a-partition/index.md'
         - 'References': 'references.md'
     - About: 'about.md'
