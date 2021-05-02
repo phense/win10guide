@@ -1,55 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://phense.github.com/win10guide/</loc>
-     <lastmod>2021-04-28</lastmod>
+     <lastmod>2021-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://phense.github.com/win10guide/drives/</loc>
-     <lastmod>2021-04-28</lastmod>
+     <lastmod>2021-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://phense.github.com/win10guide/pre-install-backup/</loc>
-     <lastmod>2021-04-28</lastmod>
+     <lastmod>2021-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://phense.github.com/win10guide/install/</loc>
-     <lastmod>2021-04-28</lastmod>
+     <lastmod>2021-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://phense.github.com/win10guide/postinstall/</loc>
-     <lastmod>2021-04-28</lastmod>
+     <lastmod>2021-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://phense.github.com/win10guide/security/</loc>
-     <lastmod>2021-04-28</lastmod>
+     <lastmod>2021-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://phense.github.com/win10guide/basics/</loc>
-     <lastmod>2021-04-28</lastmod>
+     <lastmod>2021-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://phense.github.com/win10guide/browser/</loc>
-     <lastmod>2021-04-28</lastmod>
+     <lastmod>2021-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://phense.github.com/win10guide/editor/</loc>
-     <lastmod>2021-04-28</lastmod>
+     <lastmod>2021-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://phense.github.com/win10guide/audio/</loc>
-     <lastmod>2021-04-28</lastmod>
+     <lastmod>2021-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://phense.github.com/win10guide/making-space/</loc>
-     <lastmod>2021-04-28</lastmod>
+     <lastmod>2021-05-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://phense.github.com/win10guide/splitting-a-partition/</loc>
+     <lastmod>2021-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://phense.github.com/win10guide/references/</loc>
-     <lastmod>2021-04-28</lastmod>
+     <lastmod>2021-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://phense.github.com/win10guide/about/</loc>
-     <lastmod>2021-04-28</lastmod>
+     <lastmod>2021-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
